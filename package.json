@@ -1,0 +1,13 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"init": "cd next && npm install && cd ../react && npm install && cd ../server && npm install",
+		"server": "cd server && npm run start",
+		"react": "cd react && npm run start",
+		"next": "cd next && npm run dev"
+	},
+	"author": "",
+	"license": "ISC"
+}
