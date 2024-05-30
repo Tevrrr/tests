@@ -1,7 +1,7 @@
 const Sidebar = () => {
 	return (
 		<div className='h-screen w-56 bg-slate-100 flex flex-col'>
-			<div className='flex items-center gap-1 justify-center py-3 text-slate-100 text-[32px] font-semibold mb-6 bg-gray-800 rounded-br-2xl'>
+			<div className='h1-text flex items-center gap-1 justify-center py-3 text-slate-100 mb-6 bg-gray-800 rounded-br-2xl'>
 				Test
 				<svg
 					width='34'
@@ -23,7 +23,7 @@ const Sidebar = () => {
 			</div>
 			<ul className='p-[10px] flex flex-col gap-4'>
 				<li className='pr-1 relative flex justify-between items-center text-slate-800 font-medium text-xl transition group'>
-					Товары
+					<h3>Товары</h3>
 					<svg
 						className={`hidden transition-transform duration-300 group-hover:translate-x-1.5`}
 						width='20'
@@ -40,7 +40,7 @@ const Sidebar = () => {
 					</svg>
 				</li>
 				<li className='pr-1 relative flex justify-between items-center text-slate-800 font-medium text-xl transition group'>
-					Алгоритмы
+					<h3>Алгоритмы</h3>
 					<svg
 						className={`transition-transform duration-300 group-hover:translate-x-1.5`}
 						width='20'
@@ -57,7 +57,7 @@ const Sidebar = () => {
 					</svg>
 				</li>
 			</ul>
-			<div className='mt-auto p-5'>
+			<div className='mt-auto p-5 text-slate-900'>
 				<div className='flex space-x-2 mb-4'>
 					<span className='bg-gray-300 px-2 py-1 rounded text-sm'>
 						Админ
@@ -66,7 +66,7 @@ const Sidebar = () => {
 						roles={['Админ', 'Пользователь']}
 					</span>
 				</div>
-				<div className='text-sm'>Денис Петров</div>
+				<h6>Денис Петров</h6>
 			</div>
 		</div>
 	);
