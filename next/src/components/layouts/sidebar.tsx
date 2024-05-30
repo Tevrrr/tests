@@ -63,7 +63,7 @@ const Sidebar = () => {
 						Админ
 					</span>
 					<span className='bg-gray-300 px-2 py-1 rounded text-sm'>
-						roles={['Админ', 'Пользователь']}
+						Пользователь
 					</span>
 				</div>
 				<h6>Денис Петров</h6>
